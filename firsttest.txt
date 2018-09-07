@@ -1,0 +1,15 @@
+def compute_factorial(end):
+    i=1
+    multiply=1
+    
+    while i<=end:
+        multiply=multiply*i
+        i=i+1
+        
+    return multiply
+
+m=int(input('请输入第1个整数，回车结束。'))
+n=int(input('请输入第2个整数，回车结束。'))
+k=int(input('请输入第3个整数，回车结束。'))
+
+print('最终的和是：',compute_factorial(m)+compute_factorial(n)+compute_factorial(k))
